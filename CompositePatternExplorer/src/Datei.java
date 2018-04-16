@@ -1,23 +1,29 @@
 
 public class Datei implements IComponent{
 
-	@Override
-	public void operation() {
-		//zeigt den Inhalt an
-		System.out.println("Anzeige des Dateiinhalts");
-		
+	private String name="Datei";
+	private int groeße=1; 
+	private String inhalt="";
+	
+	public Datei(String n)
+	{
+		this.name=n;
 	}
 
 	@Override
 	public int getSize() {
-		//System.out.println("Größe der Date");
-		return 1;
+		return groeße;
 	}
 
 	@Override
 	public String getContent() {
 		String inhalt ="Inhalt der Datei";
 		return inhalt;
+	}
+
+	@Override
+	public String getName() {
+		return name;
 	}
 
 }
