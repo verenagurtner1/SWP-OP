@@ -1,6 +1,6 @@
 /**
  * 
- * Kopie von Sara Hindelang, da krank am 23.03.18
+ * Beispiel anhand von Sara Hindelang, da krank am 23.03.18
  *
  */
 public class Test {
