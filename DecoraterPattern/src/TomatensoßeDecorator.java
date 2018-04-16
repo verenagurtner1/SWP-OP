@@ -1,10 +1,10 @@
 
-public class SchinkenDecorator extends ZutatenDecorator{
+public class TomatensoﬂeDecorator extends ZutatenDecorator{
 
-	private static String beschreibung=" mit Schinken";
-	private static double preis=2.5;
+	private static String beschreibung=" mit Tomatensoﬂe";
+	private static double preis=1.0;
 	
-	public SchinkenDecorator(Pizza pizza)
+	public TomatensoﬂeDecorator(Pizza pizza)
 	{
 		this.pizza = pizza;
 	}

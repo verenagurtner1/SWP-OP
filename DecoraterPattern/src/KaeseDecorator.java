@@ -1,10 +1,9 @@
 
-public class SchinkenDecorator extends ZutatenDecorator{
-
-	private static String beschreibung=" mit Schinken";
-	private static double preis=2.5;
+public class KaeseDecorator extends ZutatenDecorator{
+	private static String beschreibung=" mit Käse";
+	private static double preis=2.0;
 	
-	public SchinkenDecorator(Pizza pizza)
+	public KaeseDecorator(Pizza pizza)
 	{
 		this.pizza = pizza;
 	}
